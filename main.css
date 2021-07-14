@@ -1,0 +1,155 @@
+body {
+    background-color: #FEFCFC;
+    color: #1E1E1E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.small {
+    font-size: 12px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.sofa {
+    margin-right: 12.8px;
+    margin-top: 2px; 
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.container {
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.column {
+    flex: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.slider-1 {
+    position: absolute;
+    top: 250px;
+    left: 13%;
+}
+
+.slider-2 {
+    position: absolute;
+    top: 250px;
+    left: 45%;
+}
+
+.slidershow {
+    position: relative;
+}
+
+.row-main {
+    display: flex;
+    margin-bottom: 5%;
+    background-color: #FEFCFC;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.column-pro {
+    width: 25%;
+    float: left;
+    margin-right: 8%;
+}
+
+.column-icon{
+    flex: 10%;
+}
+
+.column-text{
+    flex: 90%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.row-pro {
+    display: flex;
+}
+
+.row-pros:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row-pros{
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+h4 {
+    font-weight: 400;
+    margin: 0%;
+}
+
+button {
+    height: 50px;
+    padding-right: 35px;
+    padding-left: 35px; 
+    margin: 0%;
+}
+
+#black {
+    background-color: #1E1E1E;
+    border: #1E1E1E;
+    color: #FEFCFC;
+}
+
+#black:hover, #black:active{
+    background-color: #FEFCFC;
+    border:1px solid #1E1E1E;
+    color: #1E1E1E;
+}
+
+#white:hover, #white:active {
+    background-color: #1E1E1E;
+    border: #1E1E1E;
+    color: #FEFCFC;
+}
+
+#white {
+    background-color: #FEFCFC;
+    border:1px solid #1E1E1E;
+    color: #1E1E1E;
+}
+
+.text {
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+
+a {
+    color: #1E1E1E;
+}
+
+.column-icon-1 {
+    width: 18px;
+    padding-top: 10px;
+}
+
+.column-button {
+    margin-right: 10px;
+}
